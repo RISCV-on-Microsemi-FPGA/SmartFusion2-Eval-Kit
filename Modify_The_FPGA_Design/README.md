@@ -1,8 +1,8 @@
 # SmartFusion2 Security Evaluation Kit RISC-V Sample FPGA Designs 
 Sample RISC-V Libero projects for the SmartFusion2 (M2S090) Security Evaluation Kit.
 
-This project contains Libero projects containing FPGA designs including a RISC-V RV32IM soft processor. 
-Programming bitstreams are also included so you don't have to run through the full FPGA design flow in order to start developing software for RISC-V.
+This folder contains Libero projects containing FPGA designs including a RISC-V soft processor. 
+Programming bit-streams are also included so you don't have to run through the full FPGA design flow in order to start developing software for RISC-V.
 
 ### Design Feature
 The FPGA Designs include the following features
@@ -16,8 +16,6 @@ The FPGA Designs include the following features
 The memory map for each design is available within each Libero project.
 
 ### Libero Projects
-This folder contains CoreRISCV_AXI4 Libero V11.8 projects.
-
 * MIV_RV32IMA_AHB_BaseDesign:
 
    Uses MIV_RV32IMA_L1_AHB soft processor. Contains a sample RISCV design which allows users to use basic peripherals such as GPIO, UART and Timers.
@@ -27,13 +25,13 @@ This folder contains CoreRISCV_AXI4 Libero V11.8 projects.
    Uses legacy CoreRISCV_AXI4 soft processor. Contains a sample RISCV design which allows users to use basic peripherals such as GPIO, UART and Timers.
 
 ### Target Hardware
-The SmartFusion2 Creative Development Board includes a SmartFusion2 M2S090 FPGA. Details of the features available for this development board are available [here](https://www.microsemi.com/products/fpga-soc/design-resources/dev-kits/smartfusion2/sf2-evaluation-kit).
+The SmartFusion2 Creative Development Board includes a SmartFusion2 M2S090 FPGA. Details of the features of this development board are available [here](https://www.microsemi.com/products/fpga-soc/design-resources/dev-kits/smartfusion2/sf2-evaluation-kit).
 
 ### Target Mi-V CPU
-Details of the features of Mi-V CPUs are available [here](https://github.com/RISCV-on-Microsemi-FPGA/Mi-V-CPUs).
+Details of the features of the Mi-V CPUs are available [here](https://github.com/RISCV-on-Microsemi-FPGA/Mi-V-CPUs).
 
 ### Modifying the Libero projects
-Some of the Libero projects use IP packages may not be  directly available from the Microsemi IP Catalog. These IP packages were created to speed up design creation by wrapping simple logic into reusable user IP packages.
+Some of the Libero projects use IP packages that may not be directly available from the Microsemi IP Catalog. These IP packages were created to speed up design creation by wrapping simple logic into reusable user IP packages.
 These user IP packages are available [here](https://github.com/RISCV-on-Microsemi-FPGA/Mi-V-CPUs/tree/master/Supporting-IPs).
 
 If you are using a design with CoreRISCV_AXI4 soft processor, please note that you may need to uncomment "`define USE_REGISTERS" in file coreriscv_axi4_defines.v in order to reduce RAM blocks usage. 
