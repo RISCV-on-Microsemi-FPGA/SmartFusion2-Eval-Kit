@@ -2,13 +2,13 @@
 Sample Mi-V Libero projects for the SmartFusion2 (M2S090) Security Evaluation Kit.
 
 This repository contains Libero project(s) containing an FPGA design including a RISC-V soft processor. 
-The Programming bitstream(s) are also included so that you do not need to run through the full FPGA design flow 
-in order to start developping software for RISC-V.
+The Programming bit-stream(s) are also included so that you do not need to run through the full FPGA design flow 
+in order to start developing software for RISC-V.
 
 ### Modify The FPGA Design 
 The Modify_The_FPGA_Design folder contains Libero example designs. Libero is Microsemi's FPGA design tool. 
 You will need this tool if you wish to modify the example FPGA designs. Libero is available from [here](https://www.microsemi.com/products/fpga-soc/design-resources/design-software/libero-soc#downloads).
-
+   
 ### Programming The Target Device
 The Programming_The_Target_Device folder includes FlashPro Express projects that can be used to program the 
 development boards FPGA. A standalone installer for FlashPro Express is available [here](http://www.microsemi.com/products/fpga-soc/design-resources/programming/flashpro#software). 
