@@ -17,5 +17,5 @@ The SmartFusion2 Creative Development Board includes a SmartFusion2 M2S090 FPGA.
 
 
 ### Target Mi-V CPU
-Details of the features of Mi-V CPUs are available [here](https://github.com/RISCV-on-Microsemi-FPGA/Mi-V-CPUs).
+Details of the features of Mi-V CPUs are available [here](https://github.com/RISCV-on-Microsemi-FPGA/CPUs).
 

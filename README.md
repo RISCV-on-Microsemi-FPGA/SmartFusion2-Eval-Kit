@@ -23,4 +23,4 @@ A set of RISC-V example software projects are also available for these designs f
 Details of the features of SmartFusion2 (M2S090) Security Evaluation Kit are available [here](https://www.microsemi.com/products/fpga-soc/design-resources/dev-kits/smartfusion2/sf2-evaluation-kit).
 
 ### Target Mi-V CPU
-Details of the features of Mi-V CPUs are available [here](https://github.com/RISCV-on-Microsemi-FPGA/Mi-V-CPUs).
+Details of the features of Mi-V CPUs are available [here](https://github.com/RISCV-on-Microsemi-FPGA/CPUs).
