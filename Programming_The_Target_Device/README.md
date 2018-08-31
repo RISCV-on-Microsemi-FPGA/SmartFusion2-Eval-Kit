@@ -5,9 +5,6 @@ This folder includes FlashPro Express projects that can be used to program the d
 A standalone installer for FlashPro Express is available [here](http://www.microsemi.com/products/fpga-soc/design-resources/programming/flashpro#software). 
 Please note that you only need to install this standalone version of FlashPro Express if you do not have Libero tools installed.
 
-* PROC_SUBSYSTEM_BaseDesign:
-
-   Flashpro Express project and Programming file for the Libero design [CoreRISCV_AXI4_BaseDesign](https://github.com/RISCV-on-Microsemi-FPGA/SmartFusion2-Eval-Kit/tree/master/Modify_The_FPGA_Design)
 * PROC_SUBSYSTEM_MIV_RV32IMA_BaseDesign:
 
    Flashpro Express project and Programming file for the Libero design [MIV_RV32IMA_AHB_BaseDesign](https://github.com/RISCV-on-Microsemi-FPGA/SmartFusion2-Eval-Kit/tree/master/Modify_The_FPGA_Design)

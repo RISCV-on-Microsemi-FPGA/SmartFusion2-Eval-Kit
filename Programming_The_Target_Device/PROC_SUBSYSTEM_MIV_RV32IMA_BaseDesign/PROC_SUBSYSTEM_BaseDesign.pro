@@ -1,33 +1,25 @@
-<project name="PROC_SUBSYSTEM_BaseDesign" version="1.1">
+<project name="PROC_SUBSYSTEM" version="1.1">
     <ProjectDirectory>
-        C:\Users\nitin.deshpande\Desktop\newrepo\SmartFusion2-Eval-Kit\Programming_The_Target_Device\PROC_SUBSYSTEM_MIV_RV32IMA_BaseDesign
+        E:\Someshd7_Github\M2S090-Security-Eval-Kit\Modify_The_FPGA_Design\MIV_RV32IMA_AHB_BaseDesign\designer\PROC_SUBSYSTEM\PROC_SUBSYSTEM_fp
     </ProjectDirectory>
     <View>
-        ChainView
+        SingleSTAPLView
     </View>
     <LiberoTargetDevice>
         
     </LiberoTargetDevice>
     <LogFile>
-        C:\Users\nitin.deshpande\Desktop\newrepo\SmartFusion2-Eval-Kit\Programming_The_Target_Device\PROC_SUBSYSTEM_MIV_RV32IMA_BaseDesign\PROC_SUBSYSTEM_BaseDesign.log
+        E:\Someshd7_Github\M2S090-Security-Eval-Kit\Modify_The_FPGA_Design\MIV_RV32IMA_AHB_BaseDesign\designer\PROC_SUBSYSTEM\PROC_SUBSYSTEM_fp\PROC_SUBSYSTEM.log
     </LogFile>
     <SerializationOption>
         Skip
     </SerializationOption>
     <programmer status="enable" type="FlashPro4" revision="UndefRev" connection="usb2.0">
         <name>
-            66773
+            89017
         </name>
         <id>
-            66773
-        </id>
-    </programmer>
-    <programmer status="disable" type="FlashPro5" revision="UndefRev" connection="usb2.0">
-        <name>
-            E200NG6CM
-        </name>
-        <id>
-            E200NG6CM
+            89017
         </id>
     </programmer>
     <configuration>
@@ -80,35 +72,19 @@
                 </ProgrammingMode>
             </FlashPro5>
         </Hardware>
-        <Device type="ACTEL">
-            <Name>
-                M2S090
-            </Name>
-            <Custom>
-                M2S090
-            </Custom>
-            <Algo type="STAPL">
-                <filename>
-                    C:\Users\nitin.deshpande\Desktop\newrepo\SmartFusion2-Eval-Kit\Programming_The_Target_Device\PROC_SUBSYSTEM_MIV_RV32IMA_BaseDesign\projectData\PROC_SUBSYSTEM.stp
-                </filename>
-                <local>
-                    projectData\PROC_SUBSYSTEM.stp
-                </local>
-                <SelectedAction>
-                    PROGRAM
-                </SelectedAction>
-                <DeselectedProcedure>
-                    DO_VERIFY
-                </DeselectedProcedure>
-            </Algo>
-        </Device>
-        <Algo type="unknown">
-            <irlength>
-                0
-            </irlength>
-            <MaxTCK>
-                0
-            </MaxTCK>
+        <Algo type="STAPL">
+            <filename>
+                E:\Someshd7_Github\M2S090-Security-Eval-Kit\Modify_The_FPGA_Design\MIV_RV32IMA_AHB_BaseDesign\designer\PROC_SUBSYSTEM\export\PROC_SUBSYSTEM.stp
+            </filename>
+            <local>
+                projectData\PROC_SUBSYSTEM.stp
+            </local>
+            <SelectedAction>
+                PROGRAM
+            </SelectedAction>
+            <DeselectedProcedure>
+                DO_VERIFY
+            </DeselectedProcedure>
         </Algo>
     </configuration>
 </project>
