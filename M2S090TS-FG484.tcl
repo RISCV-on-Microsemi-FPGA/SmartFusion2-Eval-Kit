@@ -111,7 +111,7 @@ if {"$design_flow_stage" == "SYNTHESIZE"} then {
 	get_tool_state -name {COMPILE} 
 	get_tool_state -name {SYNTHESIZE} 
 	get_flow_state 
-	configure_tool -name {PLACEROUTE} -params {START_SEED_INDEX:4} -params {RANDOM_SEED:8988747} 
+	configure_tool -name {PLACEROUTE} -params {START_SEED_INDEX:7} -params {RANDOM_SEED:82287664}
 	run_tool -name {VERIFYTIMING}
 	save_project
 
@@ -125,7 +125,7 @@ if {"$design_flow_stage" == "SYNTHESIZE"} then {
 	get_tool_state -name {COMPILE} 
 	get_tool_state -name {SYNTHESIZE} 
 	get_flow_state 
-	configure_tool -name {PLACEROUTE} -params {START_SEED_INDEX:4} -params {RANDOM_SEED:8988747} 
+	configure_tool -name {PLACEROUTE} -params {START_SEED_INDEX:7} -params {RANDOM_SEED:82287664}
 	run_tool -name {VERIFYTIMING}
     run_tool -name {GENERATEPROGRAMMINGDATA}
     run_tool -name {GENERATEPROGRAMMINGFILE}
@@ -140,7 +140,7 @@ if {"$design_flow_stage" == "SYNTHESIZE"} then {
 	get_tool_state -name {COMPILE} 
 	get_tool_state -name {SYNTHESIZE} 
 	get_flow_state 
-	configure_tool -name {PLACEROUTE} -params {START_SEED_INDEX:4} -params {RANDOM_SEED:8988747} 
+	configure_tool -name {PLACEROUTE} -params {START_SEED_INDEX:7} -params {RANDOM_SEED:82287664}
 	run_tool -name {VERIFYTIMING}
 
 	if {"$target" == "AHB"} then {
