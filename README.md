@@ -1,4 +1,4 @@
-## PolarFire Evaluation Kit RISC-V Designs
+## SmartFusion2 Security Evaluation Kit RISC-V Designs
 
 Sample Mi-V Libero projects for the SmartFusion2 (M2S090TS and M2S090) Security Evaluation Kit.
 
