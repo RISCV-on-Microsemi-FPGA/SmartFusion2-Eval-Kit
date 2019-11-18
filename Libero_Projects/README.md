@@ -45,7 +45,7 @@ The design can also be built using a MiV_RV32IMA_L1_AXI Core by passing an argum
 
 There is also an optional 2nd argument that can be entered after the first one to be taken further in the design flow and have the design built to a certain stage. Examine the image below and refer to the text undeneath.
 
-![Design_Flow(support_files/images/execute_script_3.jpg)
+![Design_Flow](support_files/images/execute_script_3.jpg)
 
 1. Select the .tcl file that matches the part on your hardware.
 2. Type in an argument for an "AXI" or "AHB" MiV Core based design depending on which you want to use. **This argument is required.**
@@ -58,19 +58,6 @@ There is also an optional 2nd argument that can be entered after the first one t
 **Note**: It is important that the two arguments are separated by a space or the script will fail to execute or will execute partially.
 Once the programming file has been generated (.job), it will output to the FlashPro_Express_Projects folder where it will overwrite the default programming file. The file can be used to program the target device using the FlashPro Express.
 
-
-### Programming the Device using FPExpress
----------------------------------------------
-
-The projects contain default build programming files in the **FlashPro_Express_Projects** folder, there is a choice to use an AXI or AHB Core based design. Each (.job) file is capapble of programming your target device using the standalone installer for FlashPro Express which can be found [here](https://www.microsemi.com/product-directory/programming/4977-flashpro#software).
-Please note that you only need to install this standalone version of FlashPro Express for Libero v12.1 if you do not have Libero tools installed. The programming procedure is as follows:
-1. Power-up your board and connect it to your device running FlashPro Express.
-1. Launch FPExpress v12.1 and wait for it to load.
-2. Click into Project from the top left bar and select "New Job Project from FlashPro Express Job"
-3. Navigate to your Job Programming File located inside your project folder beside your .tcl script.
-4. For your directory, select the main project folder in which the .tcl file is located and click OK.
-5. On the next screen, from the bottom left drop-down menu select the PROGRAM option and clikc RUN. Wait for device to be programmed.
-
 ### Additional Notes
 -------------------------
 
@@ -80,3 +67,4 @@ Please note that you only need to install this standalone version of FlashPro Ex
 - The design flow arguments serve the purpose to take the user further down the design flow, they use the most optimal settings for design build.
 - Use the argument "Place_and_Route" or any argument after; The design will be built using an optimal place and route seed so, that the design's signal data path doesn't cause timing violations.
 - If you don't feel like building a design to program the board, you can find the exported programming files in FlashPro_Express_Project folder.
+
