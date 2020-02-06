@@ -95,7 +95,7 @@ if {"$target" == "AHB"} then {
 }
 
 # Configuring Place_and_Route tool for a timing pass.
-configure_tool -name {PLACEROUTE} -params {TDPR:true} -params {IOREG_COMBINING:true} -params {INCRPLACEANDROUTE:false} -params {REPAIR_MIN_DELAY:true} -params {EFFORT_LEVEL:true} -params {START_SEED_INDEX:7} -params {RANDOM_SEED:82287664}
+configure_tool -name {PLACEROUTE} -params {DELAY_ANALYSIS:MAX} -params {EFFORT_LEVEL:false} -params {INCRPLACEANDROUTE:false} -params {IOREG_COMBINING:true} -params {MULTI_PASS_CRITERIA:VIOLATIONS} -params {MULTI_PASS_LAYOUT:false} -params {NUM_MULTI_PASSES:5} -params {PDPR:false} -params {RANDOM_SEED:82287664} -params {REPAIR_MIN_DELAY:true} -params {SLACK_CRITERIA:WORST_SLACK} -params {SPECIFIC_CLOCK:} -params {START_SEED_INDEX:7} -params {STOP_ON_FIRST_PASS:false} -params {TDPR:true} 
 # ##
 
 if {"$design_flow_stage" == "SYNTHESIZE"} then {
