@@ -1,6 +1,6 @@
-set project_folder_name MiV_AHB_SF2_Eval_Kit_TS
+set project_folder_name MiV_AHB_BD
 set project_dir2 "./$project_folder_name"
-set Libero_project_name MiV_AHB_BaseDesign
+
 
 
 puts "-------------------------------------------------------------------------"
